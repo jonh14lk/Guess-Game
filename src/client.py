@@ -4,7 +4,7 @@ def main():
   print("Welcome to Guess Game!")
   print("Your mission is to recover the beautiful number X")
   print()
-  address = ('localhost', 2000)
+  address = ('localhost', 9000)
   client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
   client_socket.connect(address)
   print("Connection Was Found!")

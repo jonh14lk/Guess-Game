@@ -5,7 +5,7 @@ import socket
 import linecache
 import threading
 
-address = ('localhost', 2000)
+address = ('localhost', 9000)
 answer = random.randint(0, 1000)
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 server_socket.bind(address)
