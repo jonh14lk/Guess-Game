@@ -14,7 +14,7 @@ A porta utilizada no localhost foi a 9000.
 
 ## Instruções para a execução do código
 
-Para rodar o servidor é necessário entrar no diretório "src" e em seguida executar o seguinte comando:
+Para rodar o servidor é necessário entrar no diretório "src" e em seguida executar o seguinte comando no terminal:
 
 ```c
 python3 server.py
@@ -22,7 +22,7 @@ python3 server.py
 
 Após isso, o servidor estará rodando e com isso, clientes poderão iniciar o jogo com o número sorteado pelo servidor.
 
-Para a conexão de um cliente, basta entrar novamente no diretório "src" e em seguida rodar o comando: 
+Para a conexão de um cliente, basta entrar novamente no diretório "src" e em seguida rodar o comando no terminal: 
 
 ```c
 python3 client.py
